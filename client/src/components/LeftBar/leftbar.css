@@ -1,0 +1,70 @@
+.leftbar-container{
+    flex: 3;
+    height: calc(100vh - 50px);
+    overflow-y: scroll;
+    position: sticky;
+    top: 50px;
+   
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    background: whitesmoke;
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(212, 211, 211);
+}
+.leftbar-wrapper{
+    padding: 20px;
+}
+.leftbar-items{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+.list-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.list-item-icon{
+    margin-right: 15px;
+}
+.showmore-button{
+    width: 150px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: 500;
+    border-radius: 5px;
+
+}
+.leftbar-hr{
+    margin: 20px 0;
+}
+.leftbar-friendlist{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.leftbar-friend{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.leftbar-friend-image{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+    transition: all 500ms ease;
+}
+.leftbar-friend-image:hover{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10%;
+}

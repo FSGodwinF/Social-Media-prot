@@ -1,0 +1,74 @@
+.post{
+    width: 100%;
+    border-radius: 10px ;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0,0,0,0); 
+    box-shadow: 0px 0px 16px -8px rgba(0,0,0,0);
+    margin: 30px 0;
+}
+
+.post-wrapper{
+    padding: 10px;
+}
+.post-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.post-top-right{
+    cursor: pointer;
+}
+.post-profile-photo{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.post-top-left{
+    display: flex;
+    align-items: center;
+}
+.post-username{
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 10px;
+}
+.post-date{
+    font-weight: 100;
+    font-size: 12px;
+}
+.post-image{
+    width: 100%;
+    margin-top: 20px;
+    max-height: 500px;
+    object-fit: cover;
+}
+.post-center{
+    margin: 20px 0;
+}
+.post-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.post-bottom-left{
+    display: flex;
+    align-items: center;
+}
+.retweet-icon{
+    margin-right: 5px;
+    cursor: pointer;
+}
+.like-icon{
+    cursor: pointer;
+}
+.like-counter{
+    font-size: 12px;
+    font-weight: 200;
+    margin-left: 5px;
+}
+.post-comment-text{
+    cursor: pointer;
+    font-weight: 300;
+    border-bottom: 1px dashed lightslategrey;
+}

@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+.login{
+    width: 100vw;
+    height: 100vh;
+    background: linen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-wrapper{
+    width: 70%;
+    height: 70%;
+    display: flex;
+}
+.login-left, .login-right{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-logo{
+    font-size: 50px;
+    font-weight: 800;
+    font-family:'Bangers', cursive;
+    color:rgb(26, 26, 211) ;
+    margin-bottom: 10px;
+    animation: slide-in 900ms;
+}
+@keyframes slide-in{
+    from{
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(10%)
+    }
+}
+@-webkit-keyframes slide-in{
+    from{
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(10%)
+    }
+}
+@-o-keyframes slide-in{
+    from{
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(10%)
+    }
+}
+@-ms-keyframes slide-in{
+    from{
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(10%)
+    }
+}
+@keyframes fadeIn{
+    0%{opacity: 0.2;}
+    100%{opacity: 1}
+}
+@-webkit-keyframes fadeIn{
+    0%{opacity: 0.2;}
+    100%{opacity: 1}
+}
+@-o-keyframes fadeIn{
+    0%{opacity: 0.2;}
+    100%{opacity: 1}
+}
+@-ms-keyframes fadeIn{
+    0%{opacity: 0.2;}
+    100%{opacity: 1}
+}
+.login-desc{
+    font-size: 24px;
+}
+.login-form{
+    height: 300px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.login-input{
+    height: 50px;
+    width: 95%;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.login-input-password{
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.login-input-password:focus{
+    outline: none;
+}
+.login-input:focus{
+    outline: none;
+}
+.login-button{
+  height: 50px;  
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  background: rgb(26, 26, 211);
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.login-button:disabled{
+    cursor: not-allowed
+}
+.login-forgot{
+    text-align: center;
+    color:rgb(26, 26, 211);
+}
+.create-new-user{
+  width: 100%;
+  align-self: center;
+  height: 50px;  
+  border-radius: 10px;
+  border: none;
+  background: rgb(26, 26, 211);
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.password-group{
+    display: flex;
+    position: relative;
+}
+.password-show{
+    position: absolute;
+    right:10px;
+    top: 18px
+}

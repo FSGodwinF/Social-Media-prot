@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+.navbar-container{
+    height: 50px;
+    width: 100%;
+    background: #3378e7;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.logo{
+    font-size: 30px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-family:'Bangers', cursive;
+    color: rgb(48, 31, 31);
+    cursor: pointer;
+}
+.search-bar{
+    width: 100%;
+    height: 30px;
+    background: whitesmoke;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.search-icon{
+    font-size: 17px;
+    margin-left: 10px;
+}
+.search-input{
+    border: none;
+    width: 100%;
+}
+.search-input:focus{
+    outline: none;
+}
+
+.navbar-left{
+    flex: 3;
+}
+.navbar-center{
+    flex: 5;
+}
+.navbar-right{
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: whitesmoke;
+}
+.navbar-link{
+    font-size: 14px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.navbar-icons{
+    display: flex;
+}
+.navbar-icon-item{
+    margin-right: 15px;
+    position: relative;
+    cursor: pointer;
+}
+.navbar-icon-item-badge{
+    width: 14px;
+    height: 13px;
+    font-size: 10px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    color: whitesmoke;
+    top: -5px;
+    right: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.profile-photo{
+    height: 32px;
+    width: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}

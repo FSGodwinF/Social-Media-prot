@@ -1,0 +1,30 @@
+.rightside-friend{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.rightside-profile-container{
+    margin-right: 10px;
+    margin-top: 5px;
+    position: relative;
+}
+.rightside-profile-img{
+    width:40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.online-friends{
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    position: absolute;
+    background: rgb(24, 199, 24);
+    top: -1px;
+    right: 0;
+    border: 2px solid white;
+}
+.online-username{
+    font-weight: 500;
+    font-size: 15px;
+}

@@ -1,0 +1,19 @@
+.leftbar-friend{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.leftbar-friend-image{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+    transition: all 500ms ease;
+}
+.leftbar-friend-image:hover{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10%;
+}
