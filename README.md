@@ -1,7 +1,7 @@
 # Social-Media-prot
 Faderia Social Application 
 #Description
-its a prototype social media app created to develop coding skills 
+its a prototype social media app created to develop programming skills 
 The front-end was coded using ReactJS
 Back end server was created using NodeJS, Express, and MongoDb as the database
  npm was used to install the dependencies used for this project
